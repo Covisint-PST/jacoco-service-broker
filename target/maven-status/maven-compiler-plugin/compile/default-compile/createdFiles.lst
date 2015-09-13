@@ -1,0 +1,17 @@
+com\covisint\cf\servicebroker\jacoco\BrokerApiVersionFilter.class
+com\covisint\cf\servicebroker\jacoco\model\BindingResponse.class
+com\covisint\cf\servicebroker\jacoco\model\PlanMetadata.class
+com\covisint\cf\servicebroker\jacoco\model\DashboardClient.class
+com\covisint\cf\servicebroker\jacoco\model\Plan.class
+com\covisint\cf\servicebroker\jacoco\model\Catalog.class
+com\covisint\cf\servicebroker\jacoco\model\ProvisioningResponse.class
+com\covisint\cf\servicebroker\jacoco\model\ServiceMetadata.class
+com\covisint\cf\servicebroker\jacoco\Credentials.class
+com\covisint\cf\servicebroker\jacoco\CredentialsFactory.class
+com\covisint\cf\servicebroker\jacoco\model\Cost.class
+com\covisint\cf\servicebroker\jacoco\model\CatalogFactory.class
+com\covisint\cf\servicebroker\jacoco\model\Service.class
+com\covisint\cf\servicebroker\jacoco\Application.class
+com\covisint\cf\servicebroker\jacoco\controller\BindingController.class
+com\covisint\cf\servicebroker\jacoco\model\BindingRequest.class
+com\covisint\cf\servicebroker\jacoco\model\ProvisioningRequest.class
