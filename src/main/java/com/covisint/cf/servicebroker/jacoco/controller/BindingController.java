@@ -27,11 +27,11 @@ final class BindingController {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    private final AgentConfig credentials;
+    private final AgentConfig agentconfig;
 
     @Autowired
-    BindingController(AgentConfig credentials) {
-        this.credentials = credentials;
+    BindingController(AgentConfig agentconfig) {
+        this.agentconfig = agentconfig;
     }
     
     /**
@@ -43,7 +43,7 @@ final class BindingController {
     @RequestMapping(method = RequestMethod.PUT, value = "/v2/service_instances/*/service_bindings/*")
     BindingResponse create(@RequestBody BindingRequest bindingRequest) {
         this.logger.info("Binding Request Received: {}", bindingRequest);
-        return new BindingResponse(this.credentials, null);
+        return new BindingResponse(this.agentconfig, null);
     }
     
     /**

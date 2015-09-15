@@ -22,7 +22,7 @@ public class AgentConfigsFactory {
  * @return configuration 
  */
     @Bean
-    AgentConfig credentials(@Value("${configuration}") String configuration) {
+    AgentConfig agentconfig(@Value("${configuration}") String configuration) {
         return new AgentConfig(configuration);
     }
 

@@ -1,6 +1,6 @@
 # Jacoco Service Broker Deployment and Registration
 
-[![Build Status](https://api.travis-ci.org/hmlingesh/dynatrace-service-broker.svg?branch=master)](https://api.travis-ci.org/hmlingesh/dynatrace-service-broker.svg)
+[![Build Status]()
 
 Java spring boot application has been developed for service-broker which will give profile, configuration details for jacoco agent/server and generated jacoco.exec will used for Sonar runner to get coverage report. This service-broker will be registered in cloudfoundry , so that in future we can create a service and from the service bind VCAP_SERVICES values to any application.
 
@@ -22,7 +22,7 @@ $ cf push
 If user is passing arguments from CF CLI
 ```bash
 $ mvn package
-$ cf push <app_name> –p <jar_name>
+$ cf push <app_name> ï¿½p <jar_name>
 ```
 
 ## Register Service-broker in cloud foundry 
@@ -48,7 +48,7 @@ Since the application is designed to work in a PaaS environment, all configurati
 | Key | Description
 | --- | -----------
 | `configuration` | The jacoco agent configuation to provide to all applications.  
-| `profile` | The profile that can used for mentioning agent-name during setting java agent path.  This can be any value.
+
 
 
 ## Model Notes

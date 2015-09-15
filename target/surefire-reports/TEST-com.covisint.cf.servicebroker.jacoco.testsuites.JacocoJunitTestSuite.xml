@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="12" failures="0" name="com.covisint.cf.servicebroker.jacoco.testsuites.JacocoJunitTestSuite" time="0" errors="0" skipped="0">
+<testsuite tests="12" failures="0" name="com.covisint.cf.servicebroker.jacoco.testsuites.JacocoJunitTestSuite" time="0.072" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 8.1"/>
-    <property name="classworlds.conf" value="C:\Users\Lingesh.M\workspace\jacoco-service-broker\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4219871967323830815.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Lingesh.M\workspace\jacoco-service-broker\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5172329938490795709.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\RSA SecurID Token Common;C:\Program Files\RSA SecurID Token Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Ruby22-x64\bin;C:\Go\bin;D:\Lingesh\apache-maven-3.2.3-bin\apache-maven-3.2.3\bin;C:\Program Files (x86)\CloudFoundry;C:\Program Files (x86)\Skype\Phone\;C:\Python34\;C:\Users\Lingesh.M\AppData\Roaming\npm;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -61,16 +61,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.AgentConfigTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.BindingRequestTest" name="deSerialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.BindingResponseTest" name="serialization" time="0"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.AgentConfigTest" name="serialization" time="0.022"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.BindingRequestTest" name="deSerialization" time="0.003"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.BindingResponseTest" name="serialization" time="0.01"/>
   <testcase classname="com.covisint.cf.servicebroker.jacoco.model.CatalogTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.CostTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.DashboardClientTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.PlanMetadataTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.PlanTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ServiceMetadataTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ServiceTest" name="serialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ProvisioningRequestTest" name="deSerialization" time="0"/>
-  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ProvisioningResponseTest" name="serialization" time="0"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.CostTest" name="serialization" time="0.005"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.DashboardClientTest" name="serialization" time="0.004"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.PlanMetadataTest" name="serialization" time="0.006"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.PlanTest" name="serialization" time="0.006"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ServiceMetadataTest" name="serialization" time="0.002"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ServiceTest" name="serialization" time="0.006"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ProvisioningRequestTest" name="deSerialization" time="0.002"/>
+  <testcase classname="com.covisint.cf.servicebroker.jacoco.model.ProvisioningResponseTest" name="serialization" time="0.006"/>
 </testsuite>

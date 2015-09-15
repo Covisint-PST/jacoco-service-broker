@@ -34,7 +34,7 @@ public final class BindingControllerTest extends AbstractControllerTest {
         this.mockMvc.perform(put("/v2/service_instances/0/service_bindings/1").content(payload()).contentType(MediaType
                 .APPLICATION_JSON))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$.credentials.configuration").exists());
+                .andExpect(jsonPath("$.agentconfig.configuration").exists());
     }
 
     /**

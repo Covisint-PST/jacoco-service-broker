@@ -19,17 +19,17 @@ public final class BindingResponseTest extends AbstractSerializationTest<Binding
 
     @Override
     protected void assertContents(Map m) throws IOException {
-        assertEquals(roundTrip(getCredentials()), m.get("credentials"));
+        assertEquals(roundTrip(getAgentconfig()), m.get("agentconfig"));
         assertEquals("http://test.syslog.drain.url", m.get("syslog_drain_url"));
     }
 
     @Override
     protected BindingResponse getInstance() {
-        return new BindingResponse(getCredentials(), URI.create("http://test.syslog.drain.url"));
+        return new BindingResponse(getAgentconfig(), URI.create("http://test.syslog.drain.url"));
     }
 
-    private AgentConfig getCredentials() {
-        return new AgentConfig("destfile=/home/vcap/jacoco.exec,append=true,includes=*");
+    private AgentConfig getAgentconfig() {
+        return new AgentConfig("output=tcpclient,address=localhost,port=6300,includes=*");
     }
 
 }

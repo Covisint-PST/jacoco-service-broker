@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 /**
  * 
- * Test class for Credentials.
+ * Test class for agentconfig.
  *
  * @version 1.0, 2015-10-09
  * @author Lingeshm

@@ -43,7 +43,7 @@ public class CatalogFactory {
                 .plan()
                     .id(UUID.fromString(planId))
                     .name("standard")
-                    .description("Jacoco credentials")
+                    .description("Jacoco agentconfig")
                     .metadata()
                         .bullets("Code analyser", "Instrumentation",
                                  "Performance data API access")
