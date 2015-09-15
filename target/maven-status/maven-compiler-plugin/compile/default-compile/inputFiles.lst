@@ -2,12 +2,11 @@ D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroke
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\controller\CatalogController.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\ProvisioningResponse.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\CatalogFactory.java
-D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\CredentialsFactory.java
+D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\AgentConfigsFactory.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\DashboardClient.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\controller\BindingController.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\ProvisioningRequest.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\Service.java
-D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\Credentials.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\BindingResponse.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\Plan.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\PlanMetadata.java
@@ -16,4 +15,5 @@ D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroke
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\controller\ProvisioningController.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\Application.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\ServiceMetadata.java
+D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\AgentConfig.java
 D:\Covisint-PST\jacoco-service-broker\src\main\java\com\covisint\cf\servicebroker\jacoco\model\BindingRequest.java

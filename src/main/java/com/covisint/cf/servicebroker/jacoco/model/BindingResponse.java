@@ -1,6 +1,6 @@
 package com.covisint.cf.servicebroker.jacoco.model;
 
-import com.covisint.cf.servicebroker.jacoco.Credentials;
+import com.covisint.cf.servicebroker.jacoco.AgentConfig;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.net.URI;
@@ -16,16 +16,16 @@ import java.net.URI;
 
   public final class BindingResponse {
 
-    private final Credentials credentials;
+    private final AgentConfig credentials;
 
     private final URI syslogDrainUrl;
 
-    public BindingResponse(Credentials credentials, URI syslogDrainUrl) {
+    public BindingResponse(AgentConfig credentials, URI syslogDrainUrl) {
         this.credentials = credentials;
         this.syslogDrainUrl = syslogDrainUrl;
     }
 
-    Credentials getCredentials() {
+    AgentConfig getCredentials() {
         return this.credentials;
     }
 

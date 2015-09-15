@@ -2,7 +2,6 @@ D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroke
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\testsuites\JacocoServiceTestSuiteRunner.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\CatalogTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\PlanMetadataTest.java
-D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\CredentialsTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\ProvisioningRequestTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\controller\AbstractControllerTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\BindingRequestTest.java
@@ -15,6 +14,7 @@ D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroke
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\controller\CatalogControllerTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\BindingResponseTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\ServiceTest.java
+D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\AgentConfigTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\controller\BindingControllerTest.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\testsuites\JacocoJunitTestSuite.java
 D:\Covisint-PST\jacoco-service-broker\src\test\java\com\covisint\cf\servicebroker\jacoco\model\PlanTest.java

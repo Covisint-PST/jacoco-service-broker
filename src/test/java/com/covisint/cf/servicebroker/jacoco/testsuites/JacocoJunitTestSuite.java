@@ -6,7 +6,7 @@ import com.covisint.cf.servicebroker.jacoco.model.BindingRequestTest;
 import com.covisint.cf.servicebroker.jacoco.model.BindingResponseTest;
 import com.covisint.cf.servicebroker.jacoco.model.CatalogTest;
 import com.covisint.cf.servicebroker.jacoco.model.CostTest;
-import com.covisint.cf.servicebroker.jacoco.model.CredentialsTest;
+import com.covisint.cf.servicebroker.jacoco.model.AgentConfigTest;
 import com.covisint.cf.servicebroker.jacoco.model.DashboardClientTest;
 import com.covisint.cf.servicebroker.jacoco.model.PlanMetadataTest;
 import com.covisint.cf.servicebroker.jacoco.model.PlanTest;
@@ -26,7 +26,7 @@ import com.covisint.cf.servicebroker.jacoco.model.ServiceTest;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	CredentialsTest.class,
+	AgentConfigTest.class,
 	BindingRequestTest.class,
 	BindingResponseTest.class,
 	CatalogTest.class,

@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.covisint.cf.servicebroker.jacoco.Credentials;
+import com.covisint.cf.servicebroker.jacoco.AgentConfig;
 import com.covisint.cf.servicebroker.jacoco.model.*;
 
 import java.util.Collections;
@@ -27,10 +27,10 @@ final class BindingController {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    private final Credentials credentials;
+    private final AgentConfig credentials;
 
     @Autowired
-    BindingController(Credentials credentials) {
+    BindingController(AgentConfig credentials) {
         this.credentials = credentials;
     }
     

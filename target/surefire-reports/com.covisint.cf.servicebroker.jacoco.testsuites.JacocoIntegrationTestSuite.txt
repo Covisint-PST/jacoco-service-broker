@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.covisint.cf.servicebroker.jacoco.testsuites.JacocoIntegrationTestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.176 sec
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.191 sec

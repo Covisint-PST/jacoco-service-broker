@@ -15,6 +15,5 @@ com\covisint\cf\servicebroker\jacoco\model\BindingRequestTest.class
 com\covisint\cf\servicebroker\jacoco\testsuites\JacocoServiceTestSuiteRunner.class
 com\covisint\cf\servicebroker\jacoco\controller\CatalogControllerTest.class
 com\covisint\cf\servicebroker\jacoco\model\DashboardClientTest.class
-com\covisint\cf\servicebroker\jacoco\model\CredentialsTest.class
 com\covisint\cf\servicebroker\jacoco\controller\AbstractControllerTest.class
 com\covisint\cf\servicebroker\jacoco\model\ServiceMetadataTest.class

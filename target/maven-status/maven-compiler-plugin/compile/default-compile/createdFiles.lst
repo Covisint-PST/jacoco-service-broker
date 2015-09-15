@@ -6,8 +6,6 @@ com\covisint\cf\servicebroker\jacoco\model\Plan.class
 com\covisint\cf\servicebroker\jacoco\model\Catalog.class
 com\covisint\cf\servicebroker\jacoco\model\ProvisioningResponse.class
 com\covisint\cf\servicebroker\jacoco\model\ServiceMetadata.class
-com\covisint\cf\servicebroker\jacoco\Credentials.class
-com\covisint\cf\servicebroker\jacoco\CredentialsFactory.class
 com\covisint\cf\servicebroker\jacoco\model\Cost.class
 com\covisint\cf\servicebroker\jacoco\model\CatalogFactory.class
 com\covisint\cf\servicebroker\jacoco\model\Service.class

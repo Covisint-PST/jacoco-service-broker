@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.Map;
 
-import com.covisint.cf.servicebroker.jacoco.Credentials;
+import com.covisint.cf.servicebroker.jacoco.AgentConfig;
 import com.covisint.cf.servicebroker.jacoco.model.BindingResponse;
 /**
  * Test class for BindingResponse.
@@ -28,8 +28,8 @@ public final class BindingResponseTest extends AbstractSerializationTest<Binding
         return new BindingResponse(getCredentials(), URI.create("http://test.syslog.drain.url"));
     }
 
-    private Credentials getCredentials() {
-        return new Credentials("destfile=/home/vcap/jacoco.exec,append=true,includes=*");
+    private AgentConfig getCredentials() {
+        return new AgentConfig("destfile=/home/vcap/jacoco.exec,append=true,includes=*");
     }
 
 }

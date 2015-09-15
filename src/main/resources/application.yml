@@ -1,5 +1,6 @@
 ---
-configuration: "destfile=/home/vcap/jacoco.exec,append=true,includes=*"
+#configuration: "destfile=/home/vcap/jacoco.exec,append=true,includes=*"
+configuration: "output=tcpclient,address=localhost,port=6300,includes=*"
 serviceBroker:
   planId: 03345e9f-d2a7-4380-b43b-bce61f11121a
   serviceId: 50ea410d-db0c-46fb-b2fb-01999f8bd600
